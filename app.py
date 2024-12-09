@@ -9,7 +9,7 @@ def home():
 
 @app.route("/test")
 def test():
-    return "<p>Test Server</p>"
+    return "<p>Test Flask Server</p>"
 
 
 @app.route("/info")
