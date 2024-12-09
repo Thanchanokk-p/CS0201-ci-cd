@@ -17,6 +17,7 @@ jobs:
       - name: Checkout the files
         uses: actions/checkout@v2
 
+
       - name: Deploy to server
         uses: bitovi/github-actions-deploy-docker-to-ec2@v1.0.1
         with:
@@ -25,3 +26,4 @@ jobs:
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
           aws_resource_identifier: ${{ secrets.EC2_RESOURCE_ID }}
           app_port: 5000
+          tf_state_bucket: niallroche-cs0201-ci-cd-main-tf-state-new
