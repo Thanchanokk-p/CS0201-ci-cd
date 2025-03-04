@@ -19,7 +19,7 @@ class FlaskTestCase(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
 
         # assert the response data
-        self.assertEqual(response.data, b'<p>Hello, World!</p>')
+        self.assertEqual(response.data, b'<p>Hello, Old World!</p>')
 
 if __name__ == '__main__':
     unittest.main()
