@@ -36,6 +36,6 @@ jobs:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID}}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
           aws_resource_identifier: ${{ secrets.EC2_RESOURCE_ID }}
-          aws_session_token: ${{ secrets.AWS_SESSION_TOKEN }}
+          # aws_session_token: ${{ secrets.AWS_SESSION_TOKEN }}
           app_port: 5000
           tf_state_bucket: niallroche-cs0201-ci-cd-main-tf-state-new
