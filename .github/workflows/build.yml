@@ -38,4 +38,4 @@ jobs:
           aws_resource_identifier: ${{ secrets.EC2_RESOURCE_ID }}
           # aws_session_token: ${{ secrets.AWS_SESSION_TOKEN }}
           app_port: 5000
-          tf_state_bucket: niallroche-cs0201-ci-cd-main-tf-state-new
+          tf_state_bucket: niallroche-cs0201-ci-cd-main-tf-state-newer
