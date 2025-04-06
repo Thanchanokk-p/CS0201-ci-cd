@@ -6,6 +6,7 @@ app = Flask(__name__)
 def home():
     return "<p>Hello, Old World!</p>"
 
+print(tryyyyyy)
 
 @app.route("/test")
 def test():
@@ -20,3 +21,6 @@ def info():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+print(tryy)
+print(tryyy2)
